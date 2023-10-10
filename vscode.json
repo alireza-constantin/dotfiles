@@ -1,0 +1,56 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontWeight": "600",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.activityBar.visible": false,
+    "scm.inputFontFamily": "JetBrainsMono Nerd Font",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.semi": false,
+    "editor.formatOnPaste": true,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "explorer.confirmDelete": false,
+    // "[typescript]": {
+    //   "editor.defaultFormatter": "denoland.vscode-deno"
+    // },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 80
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "[html]": {
+    //   "editor.defaultFormatter": "vscode.html-language-features"
+    // },
+    // "[javascript]": {
+    //   "editor.defaultFormatter": "vscode.typescript-language-features"
+    // },
+    "workbench.iconTheme": "icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 90,
+    "volar.format.initialIndent": {
+        "css": true,
+        "html": true,
+        "javascript": true,
+        "typescriptreact": true,
+        "typescript": true
+    },
+    "prettier.documentSelectors": ["**/*.astro"],
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "workbench.sideBar.location": "right"
+}
